@@ -24,7 +24,7 @@ then
 	abort "- Aborting installation !!"
 fi
 
-[ ! -d "$MAGISKTMP/.magisk/modules/magisk_proc_monitor" ] && {
+[ ! -d "/data/adb/modules/magisk_proc_monitor" ] && {
     MURL=http://github.com/HuskyDG/magisk_proc_monitor
     ui_print "- Process monitor tool is not installed"
     ui_print "  Please install it from $MURL"
